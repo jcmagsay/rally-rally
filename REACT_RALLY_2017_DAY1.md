@@ -222,8 +222,27 @@ React is moving towards becoming a platform than a framework.
 # Accessibility
 - Using ARIA roles and AccessibilityTraits
 
-#
-
-
 ## My Thoughts
 - so instead of optimizing class names and architecting css modules and relational objects, we abstract combinations or more atomic descriptions of how individual components are displayed #atomic rulez
+
+
+____________________________________________________________________
+
+
+# React-ing htmlFor=empathy -- Jana Beck (Stitch Fix)
+
+Checkout Data Science Algorithms @ http://multithreaded.stitchfix.com/
+Checkout Eye Tracking Platform @ https://webgazer.cs.brown.edu/
+
+## Project
+
+A side project where speaker used technologies to use Partner Assisted Scanning with the web app and the face detection platform that will recognize communication using an alphabet chart when user blinks.
+
+- Using WebGazer & ReactJs
+- Build algorithms to collect the data via gesture and data collection platforms
+____________________________________________________________________
+
+
+# Redux + ServiceWorker = Offline React -- Zack Argyle
+
+##

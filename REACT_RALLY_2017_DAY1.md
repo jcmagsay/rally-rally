@@ -164,3 +164,24 @@ ____________________________________________________________________
 - No more data-reactid ** need to update Retul
 - ReactDom.hydrate(...)
 - Async Scheduling (turned off -- will exist in another version........... but... workaround http://www.benmvp.com/slides/2017/reactrally/fiber.html#/)
+
+____________________________________________________________________
+
+
+# ReacTex: using React Native and Neural Networks to recognize handwritten equations -- Bonnie Milián
+- AI, ML (Machine Learning), DL (Deep Learning)
+
+## Get Involved With APIs and other tools
+- IBM Watson
+- Google Cloud
+
+### Step 1: Understand how these tools behave
+- DIY projects
+
+
+### Step 2: Learning Materials
+- Udacity
+- Coursera
+
+## Neural Network (types of learning)
+- Supervised vs. Unsupervised

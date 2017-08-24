@@ -185,3 +185,45 @@ ____________________________________________________________________
 
 ## Neural Network (types of learning)
 - Supervised vs. Unsupervised
+
+
+____________________________________________________________________
+
+
+# Twitter Lite, React Native, and Progressive Web Apps -- Nicolas Gallagher (Twitter)
+
+'A web framework without a DOM or CSS' -- Nicolas Gallagher
+React is moving towards becoming a platform than a framework.
+
+## WebApp Pain points
+
+1. CSS
+
+## The Power
+1. Simple
+2. Responsive
+3. Events (touch, swipe, etc)
+4. Accessibility APIs
+
+
+## React Native for Web Dev
+- React Native built on top of ReactDom
+- StyleSheet API (subset of CSS)
+  StyleSheet.create({
+    'display': 'block',
+    ...
+  });
+- React Native Styles vs CSS
+  React Native Styles > CSS -- the more specific native style prop wins where CSS is order of styles rendered
+
+# React Dev Tools
+- With the React Dev Tools & Jest Snapshots, we can easily create a stack trace of how to resolve or view each rendered result of a RN component
+
+# Accessibility
+- Using ARIA roles and AccessibilityTraits
+
+#
+
+
+## My Thoughts
+- so instead of optimizing class names and architecting css modules and relational objects, we abstract combinations or more atomic descriptions of how individual components are displayed #atomic rulez

@@ -243,6 +243,17 @@ A side project where speaker used technologies to use Partner Assisted Scanning 
 ____________________________________________________________________
 
 
-# Redux + ServiceWorker = Offline React -- Zack Argyle
+# Redux + ServiceWorker = Offline React -- Zack Argyle (Pinterest)
 
-##
+## Service Workers
+Go check out fetch race method
+  --> parallel request on an old device can be slower than fetching over network due to old hardware
+
+## Application Shell
+The googs lika da app shells (they recommend server rendering -- SEO)
+
+## Middleware (Redux)
+Redx is king
+
+## Demo
+Saving the app shell, js, and css upfront via the service worker creates a seamless experience online or offline

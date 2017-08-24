@@ -163,4 +163,4 @@ ____________________________________________________________________
 
 - No more data-reactid ** need to update Retul
 - ReactDom.hydrate(...)
-- 
+- Async Scheduling (turned off -- will exist in another version........... but... workaround http://www.benmvp.com/slides/2017/reactrally/fiber.html#/)

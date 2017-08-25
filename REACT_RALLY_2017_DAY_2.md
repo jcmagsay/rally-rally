@@ -196,7 +196,13 @@ Some problems:
    You can resolve by preloading
 2. Relay
 
+## Reflections
+```
+Talk was great. As a GraphQl user I enjoyed seeing and understanding some painpoints and how to alleviate them -- particularly over-fetching.
 
+TODO:
+Think about ways to improve over-fetching from the Relay side vs. the GraphQl side
+```
 ____________________________________________________________________
 
 

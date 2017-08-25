@@ -245,6 +245,8 @@ ____________________________________________________________________
 
 # Redux + ServiceWorker = Offline React -- Zack Argyle (Pinterest)
 
+Check out https://medium.com/@zackargyle
+
 ## Service Workers
 Go check out fetch race method
   --> parallel request on an old device can be slower than fetching over network due to old hardware

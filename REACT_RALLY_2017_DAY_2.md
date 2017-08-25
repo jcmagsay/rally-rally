@@ -196,15 +196,7 @@ Some problems:
    You can resolve by preloading
 2. Relay
 
-## Reflections
-```
-Bro bro was legit. I enjoyed this talk and wish it could've kept going. Short circuiting and finding the path of least resistance is something I need to start thinking about before implementing solutions. Graph & tree relations are amazing and will absolutely spike the performance of an app.
 
-TODO:
-1. Add this to project kickoff checklist
-2. Work with UX team to create workflows that ease this thought process
-
-```
 ____________________________________________________________________
 
 
@@ -222,6 +214,11 @@ this.setState((prevVal, newVal) => {
 
 })
 
+
+## Reflections
+```
+Don't forget what it was like to be an entry level dev. Concepts didn't always come as easy as they do now.
+```
 ____________________________________________________________________
 
 
@@ -296,6 +293,15 @@ Concurrent state handler
 
 `npm install xstate`
 
+## Reflections
+```
+Bro bro was legit. I enjoyed this talk and wish it could've kept going. Short circuiting and finding the path of least resistance is something I need to start thinking about before implementing solutions. Graph & tree relations are amazing and will absolutely spike the performance of an app.
+
+TODO:
+1. Add this to project kickoff checklist
+2. Work with UX team to create workflows that ease this thought process
+
+```
 ____________________________________________________________________
 
 

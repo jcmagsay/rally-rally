@@ -11,18 +11,18 @@ ____________________________________________________________________
 
 ## Elm vs. React
 
-Elm -> immutable & functional
-Elm -> forces patterns -- good and bad ways to use it
-Both have the concept of static data analysis
+- Elm -> immutable & functional
+- Elm -> forces patterns -- good and bad ways to use it
+- Both have the concept of static data analysis
 
 ____________________________________________________________________
 
 
 # So how does Babel even work? Let's create the JSX transform to find out! -- Henry Zhu (Behance)
 
-'Compiler that compiles JS to JS' -- lol
-Look up AST (Abstract Syntax Tree)
-Compile PHP to JS -> https://babeljs.io/php/
+- 'Compiler that compiles JS to JS' -- lol
+- Look up AST (Abstract Syntax Tree)
+- Compile PHP to JS -> https://babeljs.io/php/
 
 ## ASTExplorer
 - Go to astexplorer.net\

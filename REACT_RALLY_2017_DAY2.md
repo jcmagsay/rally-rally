@@ -175,7 +175,6 @@ Some problems:
    You can resolve by preloading
 2. Relay
 
-
 ____________________________________________________________________
 
 
@@ -192,3 +191,188 @@ ____________________________________________________________________
 this.setState((prevVal, newVal) => {
 
 })
+
+____________________________________________________________________
+
+
+# Infinitely Better UIs with Finite Automata -- David Khourshid (Microsoft)
+
+## Bottom Up Approach is problematic
+
+Bottom up approach can be defined as
+
+One Event --> Creates a fuck ton of business logic
+
+- diff to understand, test, enhance
+- contains bugs
+- features are hard
+
+## User Interfaces as Graphs
+
+UIs don't have to always be trees, they can be graphs.
+
+
+## possible states
+
+ (green)  Deterministic
+(yellow)  Finite
+ ( red )  Automata
+
+
+## Graph Theory
+
+### PacMan
+
+Ghosts have 3 states
+1. default
+2. active - after PacMan eats a pill
+3. dead - after PacMan eats ghost
+```
+   ________________________
+  /                        \
+  |                         |
+  V                         |
+default -> active -> dead _/
+             |
+             V
+           default
+```
+
+## Finite State Machines (FSMs)
+Shortest path to get to each state
+
+## Problems with FSMs
+
+
+## Statecharts
+Hierarchical FSMs
+ ________________________________________________________
+|                                                        |
+|                                                        |
+|     (green)  Deterministic                             |
+|     (yellow)  Finite                                   |
+|     ( red )  Automata                                  |
+|                                                        |
+|                                                        |
+|________________________________________________________|
+            |
+            |
+            |
+      (flashingRed) -- power outage
+
+## XState
+
+Concurrent state handler
+
+`npm install xstate`
+
+____________________________________________________________________
+
+
+# Start a conversation between browser windows - Cara Kuei (NFL)
+
+NFL React Projects
+- ReactWildcat
+- ReactHelmet
+
+## Postmessage
+
+More info @: https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage
+- Event system
+*Caveat: all events are in global scope with PostMessage* -- not to different from most pub-subs/event systems
+
+## NFL: Using with PostMessage with React
+
+*Background*
+Legacy pages are not React, iframes are used to allow new to be hosted with legacy
+
+
+### Embeddable Content
+
+Layers
+1. Legacy package
+2. <iframe>
+3.
+
+### HTTP -> HTTPS
+
+Using HOCs to pass complex data that will drive the ability for the legacy app and new React to communicate
+
+### How does PostMessage help?
+
+#### Workflow before PostMessage
+1. Create a new entry in CMS for hero
+2. Choose logo
+3. Save
+4. Refresh
+5. Deets show up
+
+#### Workflow after PostMessage
+1. Create a new entry in CMS for hero
+2. Edit alt tag
+3. Save
+4. Deets show up
+
+
+## IRL Example
+
+### postMessage Signature
+
+`otherWindow.postMessage(message, targetOrigin, [transfer]);`
+
+### What you need
+
+1. Publishers
+2. Subscribers
+3. Event Handlers
+   Receiver that will check namespace
+
+### Issues
+1. Might miss a message
+   Async messaging that ties into React's life cycle hooks
+
+
+## Takeaways
+elegant simple Application
+well structured message
+being async
+usable in react
+allows large migrations from legacy to new features
+
+____________________________________________________________________
+
+
+# I want you to contribute to open source - Max Stoiber ()
+
+## Advice
+
+1. Solve your own god damn problems
+2. Open Sourcing helps yourself
+   - Future you ain't got time for that
+   - Worst Case Scenario: You fix your own problem for the future
+3. *Pro Tip*: Ask yourself "Can I make it Open Source?"
+   - Not everything can be
+   - Does it exits?
+4. Write a blog post
+5. Open a PR to update other's open source libraries
+   - Sometimes documentation updates are all an open source lib needs
+6. Know your limits
+   - 0 to 60 isn't possible overnight
+   - Start small
+
+## Steps
+
+1. Solve your problems
+2. Generalize solution
+3. ???? -- to much to mention
+4. Profit
+
+## Examples
+1. Social Media Share Buttons@
+   - https://github.com/mxstbr/sharingbuttons.io
+   - http://sharingbuttons.io/
+2.
+
+## TODO
+1. Update Atomic's documentation on using Webpack2
+2. Webpack and SASS working with HMR

@@ -5,6 +5,7 @@
 Summary of all the speakers topics.
 
 [Day 1](https://github.com/jcmagsay/rally-rally/blob/master/REACT_RALLY_2017_DAY_1.md)
+
 [Day 2](https://github.com/jcmagsay/rally-rally/blob/master/REACT_RALLY_2017_DAY_2.md)
 
 ## Future Plans

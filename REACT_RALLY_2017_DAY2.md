@@ -111,3 +111,47 @@ Check out:
 1. Enzyme
 2. Jest
 3. Mocha
+
+
+____________________________________________________________________
+
+
+# Everything is a plugin!! Mastering webpack from the inside out - Sean Larkin (Microsoft)
+
+## Tapable
+Used to create webpack plugins
+A class object that extends tapable
+
+## Walk through source code (WebPack)
+1. Compiler -- `import webpack as 'webpack';`
+2. Compilation -- webpack(config)
+3. Create dependency tree -- what requires what
+4. Resolver -- resolves paths and makes sure things exist`
+5. Module Factory -- creates module
+   - Takes successful resolv requires
+   - Collects source for file
+6. Parser -- parses (I can haz ASTs)
+   - Takes mod obj turn into AST to parses- find all req. import and create dependencies
+7. Template -- data binding for your modules
+   - Creates code that is in your bundles
+   - Compress into a chunk (chunk template)
+   -
+
+## How webpack guilds the graph
+Steps 1-7 and then the tree is created
+
+## How does it get served?
+Init Compiler
+Compile the configs
+Get everything you need and everything the thing you need requires
+Resolve all the things you required and are dependent on the things you require
+Make all the things available
+Parse all the things
+Put the things into groups (chunks)
+
+
+## Why should you care what's under the hood?
+GitHub: thelarkinn/everything-is-a-plugin
+
+## Webpack3
+opencollective.com/webpack

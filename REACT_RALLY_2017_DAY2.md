@@ -151,7 +151,44 @@ Steps 1-7 and then the tree is created
 
 
 ## Why should you care what's under the hood?
-GitHub: thelarkinn/everything-is-a-plugin
+GitHub: https://github.com/TheLarkInn/everything-is-a-plugin
 
 ## Webpack3
 opencollective.com/webpack
+
+
+____________________________________________________________________
+
+
+# GraphQL IRL -- Cameron Matheson (Instructure)
+
+## What is it?
+A QL that contains:
+1. Types
+2. Resolvers
+
+## GraphQL 4 reel
+Use GraphIQL https://github.com/graphql/graphiql for deep viewing your queries
+
+Some problems:
+1. Over fetching
+   You can resolve by preloading
+2. Relay
+
+
+____________________________________________________________________
+
+
+# Demystifying setSet() -- Justice Mba (Vconnect)
+
+## Set State Flow
+1. Declare state in component
+2. Update values
+3. Reconciliation of new value
+
+## Batching
+
+## Functional setState
+this.setState((prevVal, newVal) => {
+
+})

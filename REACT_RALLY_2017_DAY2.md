@@ -141,13 +141,13 @@ A class object that extends tapable
 Steps 1-7 and then the tree is created
 
 ## How does it get served?
-Init Compiler
-Compile the configs
-Get everything you need and everything the thing you need requires
-Resolve all the things you required and are dependent on the things you require
-Make all the things available
-Parse all the things
-Put the things into groups (chunks)
+- Init Compiler
+- Compile the configs
+- Get everything you need and everything the thing you need requires
+- Resolve all the things you required and are dependent on the things you require
+- Make all the things available
+- Parse all the things
+- Put the things into groups (chunks)
 
 
 ## Why should you care what's under the hood?

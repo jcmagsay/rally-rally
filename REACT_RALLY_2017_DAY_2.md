@@ -5,9 +5,10 @@
 - TJ Holowaychuk -> https://medium.com/@tjholowaychuk
 
 ## Reflections
-`
-Don't forget what it was like to be an entry level dev. Concepts didn't always come as easy as they do now.
-`
+```
+Don't forget what it was like to be an entry level dev.
+Concepts didn't always come as easy as they do now.
+```
 ____________________________________________________________________
 
 
@@ -20,9 +21,10 @@ ____________________________________________________________________
 - Both have the concept of static data analysis
 
 ## Reflections
-`
-Super tight. Definitely need to jump on the Elm train for comparison. The amount of time spent into the logging alone gained immediate respect.
-`
+```
+Super tight. Definitely need to jump on the Elm train for comparison.
+The amount of time spent into the logging alone gained immediate respect.
+```
 ____________________________________________________________________
 
 
@@ -124,9 +126,10 @@ Check out:
 3. Mocha
 
 ## Reflections
-`
-Scalability should have a plan from the beginning of the project life cycle. Alleviate the pain before it even begins.
-`
+```
+Scalability should have a plan from the beginning of the project
+life cycle. Alleviate the pain before it even begins.
+```
 
 ____________________________________________________________________
 
@@ -172,10 +175,16 @@ GitHub: https://github.com/TheLarkInn/everything-is-a-plugin
 opencollective.com/webpack
 
 ## Reflections
-`Sean is really great at karaoke. He jammed on the air guitar so hard. This presentation was amazing. As an avid WebPack user, I had a great understanding of the tool before, but more so now. Sean did a great job breaking down the flow of what happens when a WebPack bundle is created.`
+```
+1. Sean is really great at karaoke.
+2. He jammed on the air guitar so hard.
 
-`TODO: I need to buy WebPack Swag`
+This presentation was amazing. As an avid WebPack user, I have a great
+understanding of the tool, but more so now. Sean did a great job breaking
+down the flow of what happens when a WebPack bundle is created.
 
+TODO: I need to buy WebPack Swag
+```
 
 ____________________________________________________________________
 
@@ -196,10 +205,13 @@ Some problems:
 2. Relay
 
 ## Reflections
-`Talk was great. As a GraphQl user I enjoyed seeing and understanding some painpoints and how to alleviate them -- particularly over-fetching.`
+```
+Talk was great. As a GraphQl user I enjoyed seeing and understanding some
+pain points and how to alleviate them -- particularly over-fetching.
 
-`TODO: Think about ways to improve over-fetching from the Relay side vs. the GraphQl side`
-
+TODO:
+Think about ways to improve over-fetching from the Relay side vs. the GraphQl side
+```
 ____________________________________________________________________
 
 
@@ -276,6 +288,7 @@ Shortest path to get to each state
 
 ## Statecharts
 Hierarchical FSMs
+```
  ________________________________________________________
 |                                                        |
 |                                                        |
@@ -289,6 +302,7 @@ Hierarchical FSMs
             |
             |
       (flashingRed) -- power outage
+```
 
 ## XState
 
@@ -382,12 +396,13 @@ Using HOCs to pass complex data that will drive the ability for the legacy app a
 - allows large migrations from legacy to new features
 
 ## Reflections
-
+```
 Cool implementation. I feel weird about pub-sub and event systems in general
 because of arbitrary global variable, but I'd like to test out the name-spacing
 with React components to see if it works for me. I still don't like the idea of
 event systems with React because that's not really the "React way" however I
 admire and appreciate this solution given the constraints.
+```
 
 ```
 The React Way
@@ -439,3 +454,9 @@ ____________________________________________________________________
 ## TODO
 1. Update Atomic's documentation on using Webpack2
 2. Webpack and SASS working with HMR
+
+## Reflections
+
+```
+JUST DO IT
+```

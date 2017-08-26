@@ -231,8 +231,10 @@ this.setState((prevVal, newVal) => {
 
 
 ## Reflections
-- `Wow! All the way from Nigeria. Props Justice.`
-- `I loved passing a function vs. a value for async updates. Great stuff!`
+```
+Wow! All the way from Nigeria. Props Justice.
+I loved passing a function vs. a value for async updates. Great stuff!
+```
 
 ____________________________________________________________________
 
@@ -413,10 +415,10 @@ The React Way
       /             \
   Component1    Component2
 ------------------------------
+
+Data can be passed from Component1 to Component2 just by
+relation of being a descendent from the same component
 ```
-`Data can be passed from Component1 to Component2 just by relation of being a descendent from the same component`
-
-
 ____________________________________________________________________
 
 

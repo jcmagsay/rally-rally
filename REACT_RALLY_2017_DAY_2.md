@@ -223,7 +223,9 @@ this.setState((prevVal, newVal) => {
 
 ## Reflections
 ```
-Don't forget what it was like to be an entry level dev. Concepts didn't always come as easy as they do now.
+Wow! All the way from Nigeria. Props Justice.
+
+I loved passing a function vs. a value for async updates. Great stuff!
 ```
 ____________________________________________________________________
 
@@ -306,7 +308,6 @@ Bro bro was legit. I enjoyed this talk and wish it could've kept going. Short ci
 TODO:
 1. Add this to project kickoff checklist
 2. Work with UX team to create workflows that ease this thought process
-
 ```
 ____________________________________________________________________
 
@@ -375,11 +376,28 @@ Using HOCs to pass complex data that will drive the ability for the legacy app a
 
 
 ## Takeaways
-elegant simple Application
-well structured message
-being async
-usable in react
-allows large migrations from legacy to new features
+- elegant simple Application
+- well structured message
+- being async
+- usable in react
+- allows large migrations from legacy to new features
+
+## Reflections
+```
+Cool implementation. I feel weird about pub-sub and event systems in general because of arbitrary global variable, but I'd like to test out the name-spacing with React components to see if it works for me. I still don't like the idea of event systems with React because that's not really the "React way" however I admire and appreciate this solution given the constraints.
+
+
+The React Way
+------------------------------
+         __ HOC __
+        /         \
+       /           \
+      /             \
+  Component1    Component2
+------------------------------
+
+Data can be passed from Component1 to Component2 just by relation of being a descendent from the same component parent
+```
 
 ____________________________________________________________________
 

@@ -172,11 +172,10 @@ GitHub: https://github.com/TheLarkInn/everything-is-a-plugin
 opencollective.com/webpack
 
 ## Reflections
-`
-Sean is really great at karaoke. He jammed on the air guitar so hard. This presentation was amazing. As an avid WebPack user, I had a great understanding of the tool before, but more so now. Sean did a great job breaking down the flow of what happens when a WebPack bundle is created.
+`Sean is really great at karaoke. He jammed on the air guitar so hard. This presentation was amazing. As an avid WebPack user, I had a great understanding of the tool before, but more so now. Sean did a great job breaking down the flow of what happens when a WebPack bundle is created.`
 
-TODO: I need to buy WebPack Swag
-`
+`TODO: I need to buy WebPack Swag`
+
 
 ____________________________________________________________________
 
@@ -197,12 +196,10 @@ Some problems:
 2. Relay
 
 ## Reflections
-`
-Talk was great. As a GraphQl user I enjoyed seeing and understanding some painpoints and how to alleviate them -- particularly over-fetching.
+`Talk was great. As a GraphQl user I enjoyed seeing and understanding some painpoints and how to alleviate them -- particularly over-fetching.`
 
-TODO:
-Think about ways to improve over-fetching from the Relay side vs. the GraphQl side
-`
+`TODO: Think about ways to improve over-fetching from the Relay side vs. the GraphQl side`
+
 ____________________________________________________________________
 
 
@@ -222,11 +219,9 @@ this.setState((prevVal, newVal) => {
 
 
 ## Reflections
-```
-Wow! All the way from Nigeria. Props Justice.
+- `Wow! All the way from Nigeria. Props Justice.`
+- `I loved passing a function vs. a value for async updates. Great stuff!`
 
-I loved passing a function vs. a value for async updates. Great stuff!
-```
 ____________________________________________________________________
 
 
@@ -248,11 +243,11 @@ UIs don't have to always be trees, they can be graphs.
 
 
 ## possible states
-
+```
  (green)  Deterministic
 (yellow)  Finite
  ( red )  Automata
-
+```
 
 ## Graph Theory
 
@@ -303,7 +298,11 @@ Concurrent state handler
 
 ## Reflections
 ```
-Bro bro was legit. I enjoyed this talk and wish it could've kept going. Short circuiting and finding the path of least resistance is something I need to start thinking about before implementing solutions. Graph & tree relations are amazing and will absolutely spike the performance of an app.
+Bro bro was legit. I enjoyed this talk and wish it could've kept going.
+Short circuiting and finding the path of least resistance is something
+I need to start thinking about before implementing solutions.
+Graph & tree relations are amazing and will absolutely spike the
+performance of an app.
 
 TODO:
 1. Add this to project kickoff checklist
@@ -384,7 +383,11 @@ Using HOCs to pass complex data that will drive the ability for the legacy app a
 
 ## Reflections
 
-Cool implementation. I feel weird about pub-sub and event systems in general because of arbitrary global variable, but I'd like to test out the name-spacing with React components to see if it works for me. I still don't like the idea of event systems with React because that's not really the "React way" however I admire and appreciate this solution given the constraints.
+Cool implementation. I feel weird about pub-sub and event systems in general
+because of arbitrary global variable, but I'd like to test out the name-spacing
+with React components to see if it works for me. I still don't like the idea of
+event systems with React because that's not really the "React way" however I
+admire and appreciate this solution given the constraints.
 
 ```
 The React Way

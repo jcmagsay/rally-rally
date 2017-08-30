@@ -88,13 +88,13 @@ ____________________________________________________________________
    - each object gets its own id as a key
 
 ## File Structure
-`
+```
 Root
   |_ JS
       |_ Components
           |_ Presentation
           |_ Container
-`
+```
 
 ## Documentation
 

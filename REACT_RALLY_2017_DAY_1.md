@@ -13,9 +13,14 @@ EXAMPLE
   import * from 'd3?module';
 </script>
 
-adding `?module` at the end of the moudle/package name will prepend the `https://unpkg.com/` to the module name and append any other params at the end of that module name with babel transforms
+adding `?module` at the end of the module/package name will prepend the `https://unpkg.com/` to the module name and append any other params at the end of that module name with babel transforms
 
 500+ request in a matter of seconds. Cache is king.
+
+
+## Reflections
+```
+```
 
 ____________________________________________________________________
 
@@ -25,6 +30,11 @@ ____________________________________________________________________
 ## DESIGN NOTES
 
 Cool heat map visualizations categorizing/grouping by color
+
+
+## Reflections
+```
+```
 
 ____________________________________________________________________
 
@@ -37,6 +47,10 @@ ____________________________________________________________________
 2. NFC chip
 3. RaspberryPi
 
+
+## Reflections
+```
+```
 
 ____________________________________________________________________
 
@@ -79,6 +93,10 @@ React++  --> too many libs & dependencies
 - Stop delegating (to open source libs)
   If you npm install, own it -> it's your code -> master it -> don't complain
 
+
+## Reflections
+```
+```
 
 ____________________________________________________________________
 
@@ -128,6 +146,10 @@ What if you make WA components ANDDD React Components?
 Parallelizing --> Concurrency between sharing array buffers
 
 
+## Reflections
+```
+```
+
 ____________________________________________________________________
 
 
@@ -165,6 +187,10 @@ ____________________________________________________________________
 - ReactDom.hydrate(...)
 - Async Scheduling (turned off -- will exist in another version........... but... workaround http://www.benmvp.com/slides/2017/reactrally/fiber.html#/)
 
+## Reflections
+```
+```
+
 ____________________________________________________________________
 
 
@@ -186,6 +212,9 @@ ____________________________________________________________________
 ## Neural Network (types of learning)
 - Supervised vs. Unsupervised
 
+## Reflections
+```
+```
 
 ____________________________________________________________________
 
@@ -226,6 +255,10 @@ React is moving towards becoming a platform than a framework.
 - so instead of optimizing class names and architecting css modules and relational objects, we abstract combinations or more atomic descriptions of how individual components are displayed #atomic rulez
 
 
+## Reflections
+```
+```
+
 ____________________________________________________________________
 
 
@@ -240,6 +273,11 @@ A side project where speaker used technologies to use Partner Assisted Scanning 
 
 - Using WebGazer & ReactJs
 - Build algorithms to collect the data via gesture and data collection platforms
+
+## Reflections
+```
+```
+
 ____________________________________________________________________
 
 
@@ -259,3 +297,7 @@ Redx is king
 
 ## Demo
 Saving the app shell, js, and css upfront via the service worker creates a seamless experience online or offline
+
+## Reflections
+```
+```

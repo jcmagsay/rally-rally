@@ -60,6 +60,8 @@ ____________________________________________________________________
 
 # Scaling My First Enterprise React App! 🐙 -- Jennifer Van (Capital 1)
 
+[Presentation](https://github.com/sugargreenbean/reactrally17-presentation/blob/master/React%20Rally%202017.pdf)
+
 ## Hallmarks of enterprise products?
 1. Persist
 2. Grow

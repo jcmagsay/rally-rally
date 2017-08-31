@@ -276,9 +276,9 @@ Ghosts have 3 states
 ```
     _______________________
   /          |              \
- (          |                )
+ (           |               )
   \          |              /
-   default -> active -> dead
+   active -> scared -> dead
 
 ```
 

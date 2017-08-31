@@ -275,9 +275,9 @@ Ghosts have 3 states
 3. dead - after PacMan eats ghost
 ```
     _______________________
-  /          |              \
- (           |               )
-  \          |              /
+  /            |            \
+ (             |             )
+  \            |            /
    active -> scared -> dead
 
 ```

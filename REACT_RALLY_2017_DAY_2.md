@@ -274,14 +274,12 @@ Ghosts have 3 states
 2. active - after PacMan eats a pill
 3. dead - after PacMan eats ghost
 ```
-   ________________________
-  /                        \
-  |                         |
-  V                         |
-default -> active -> dead _/
-             |
-             V
-           default
+    _______________________
+  /          |              \
+ (          |                )
+  \          |              /
+   default -> active -> dead
+
 ```
 
 ## Finite State Machines (FSMs)
